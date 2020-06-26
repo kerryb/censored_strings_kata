@@ -10,8 +10,9 @@ MixProject	mix.exs	/^defmodule CensoredStrings.MixProject do$/;"	m	line:1	langua
 application	mix.exs	/^  def application do$/;"	f	line:15	language:Elixir
 deps	mix.exs	/^  defp deps do$/;"	f	line:22	language:Elixir
 project	mix.exs	/^  def project do$/;"	f	line:4	language:Elixir
+replace_asterisk	lib/censored_strings.ex	/^  defp replace_asterisk(vowel, string) do$/;"	f	line:8	language:Elixir
 replaces the	test/censored_strings_test.exs	/^    test "replaces the *s with the supplied vowels" do$/;"	t	line:6	language:Elixir
-uncensor	lib/censored_strings.ex	/^  def uncensor(string, _vowels) do$/;"	f	line:2	language:Elixir
+uncensor	lib/censored_strings.ex	/^  def uncensor(string, vowels) do$/;"	f	line:2	language:Elixir
 works with	test/censored_strings_test.exs	/^    test "works with * at the end" do$/;"	t	line:16	language:Elixir
 works with no vowels	test/censored_strings_test.exs	/^    test "works with no vowels." do$/;"	t	line:10	language:Elixir
 works with uppercase	test/censored_strings_test.exs	/^    test "works with uppercase" do$/;"	t	line:13	language:Elixir
