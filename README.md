@@ -18,7 +18,7 @@ uncensor("Th*t's my s**t", "aui") ➞ "That's my suit"
 Notes
 
 * The vowels are given in the correct order.
-* The number of vowels will match the number of * characters in the censored string.
+* The number of vowels will match the number of \* characters in the censored string.
 
 ## Tests
 
