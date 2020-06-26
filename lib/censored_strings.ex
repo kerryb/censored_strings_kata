@@ -1,0 +1,2 @@
+defmodule CensoredStrings do
+end
