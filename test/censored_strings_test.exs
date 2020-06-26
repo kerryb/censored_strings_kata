@@ -7,7 +7,7 @@ defmodule CensoredStringsTest do
       assert uncensor("Wh*r* d*d my v*w*ls g*?", "eeioeo") == "Where did my vowels go?"
     end
 
-    test "works with no vowels." do
+    test "works with no vowels" do
       assert uncensor("abcd", "") == "abcd"
     end
 
